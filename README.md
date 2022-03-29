@@ -31,14 +31,41 @@ Tecnologías utilizadas en el proyecto:
 
 ## Instalación
 ***
-A little intro about the installation. 
+
 ```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
+$ git clone https://github.com/zoidts/app-practica.git
+$ Ingresar a la carpeta del app-practica
+$ crear archivo .env con los datos de ejemplo que contiene el archivo .env.example 
+$ Ejecutar el comento composer install en su terminal
+$ Ejecutrar php artisan key:generate
+$ Ejecutar el comando npm install
+$ Crear base de datos y realizar la conexión en el archivo .env
 ```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
+***
+Crear base de datos y realizar la conexión en el archivo .env 
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=app_practica
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+***
+Crear las migraciones con lo seeders
+```
+ php artisan migrate --seed
+
+```
+
+***
+Iniciar el sistema
+```
+ npm run dev 
+
+```
+
 
 
 
