@@ -5,7 +5,7 @@
 
 ### Información General
 ***
-Práctica SPA desarrollado con Laravel 9 y Vue 2. ### Screenshot
+Práctica SPA desarrollado con Laravel 9 y Vue 2. 
 
 ![Image text](https://github.com/zoidts/app-practica/blob/main/app-practica.png)
 ## Tecnologías
@@ -23,7 +23,8 @@ Tecnologías utilizadas en el proyecto:
 * [laravel-permission-to-vuejs](https://www.npmjs.com/package/laravel-permission-to-vuejs): Version 2.0.5
 * [vue-axios](https://www.npmjs.com/package/vue-axios): Version 3.4.1
 * [vue-router](https://router.vuejs.org/): Version 3.5.3
-     
+* [Laravel Excel](https://laravel-excel.com/): Version 3.1
+* [spatie/laravel-permission](https://spatie.be/docs/laravel-permission/v5/introduction): Version 5.5
        
 
 
