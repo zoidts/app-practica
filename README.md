@@ -34,7 +34,7 @@ Tecnologías utilizadas en el proyecto:
 
 ```
 $ git clone https://github.com/zoidts/app-practica.git
-$ Ingresar a la carpeta del app-practica
+$ Ingresar a la carpeta app-practica que se ha creado
 $ crear archivo .env con los datos de ejemplo que contiene el archivo .env.example 
 $ Ejecutar el comento composer install en su terminal
 $ Ejecutrar php artisan key:generate
