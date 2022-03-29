@@ -7,7 +7,7 @@
 ***
 Práctica SPA desarrollado con Laravel 9 y Vue 2. ### Screenshot
 
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
+![Image text](https://github.com/zoidts/app-practica/blob/main/app-practica.png)
 ## Tecnologías
 ***
 Tecnologías utilizadas en el proyecto:
