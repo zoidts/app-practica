@@ -31,12 +31,12 @@ Tecnologías utilizadas en el proyecto:
 
 ## Instalación
 ***
-
+ **Es importante que tenga instalado [composer](https://getcomposer.org/) y [Node JS](https://nodejs.org/es/) para realizar la instalación
 ```
 $ git clone https://github.com/zoidts/app-practica.git
 $ Ingresar a la carpeta app-practica que se ha creado
 $ crear archivo .env con los datos de ejemplo que contiene el archivo .env.example 
-$ Ejecutar el comento composer install en su terminal
+$ Ejecutar composer install en su terminal. 
 $ Ejecutrar php artisan key:generate
 $ Ejecutar el comando npm install
 $ Crear base de datos y realizar la conexión en el archivo .env
@@ -60,11 +60,14 @@ Crear las migraciones con lo seeders
 ```
 
 ***
-Iniciar el sistema
+Inciar el sistema
 ```
  npm run dev 
+ php artisan serv
 
 ```
+
+
 
 
 

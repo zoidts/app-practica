@@ -27,10 +27,8 @@ class RolesAndPermissionsSeeder extends Seeder
        Permission::create(['name' => 'show provider']);
        Permission::create(['name' => 'acces dashboard']);
 
-
        $role = Role::create(['name' => 'Administrador']);
        $role->givePermissionTo(Permission::all());
-
 
        $role1 = Role::create(['name' => 'Proveedor']);
        $role1->givePermissionTo('acces dashboard');
